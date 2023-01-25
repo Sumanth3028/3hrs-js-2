@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>Product</title>
+</head>
+<body>
+<div class="container">
+<form id="my-form">
+    <label id="form-label"><b>Selling Price:</b></label>
+    <input type="number" id="number" required>
+    <label id="form-label"><b>Select Product:</b></label>
+    <select id="select" name="Product name" required>
+        <option name="nikon" id="car1">Nikon Camera</option>
+        <option name="canon" id="car2">Canon Camera</option>
+        <option name="sony" id="car3">Sony Camera</option>
+    </select>
+    <input type="submit" id="button" value="Add Product" >
+
+    
+    
+</form>
+<ul id="items"></ul>
+<p id="itemPrice" ></p>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.3/axios.min.js"></script>
+<script src="product.js"></script>
+
+</body>
+
+</html>
