@@ -9,23 +9,25 @@
     <title>Product</title>
 </head>
 <body>
-<div class="container">
-<form id="my-form">
+ 
+<div class="container" class="card-body" style="background-color: azure;">
+    <div>
+        <header class="form-header" style="background-color: rgb(212, 0, 255); text-align: center;margin: auto;"><h1>Seller Page</h1></header>
+    </div>
+<form id="my-form" class="card-body">
     <label id="form-label"><b>Selling Price:</b></label>
-    <input type="number" id="number" required>
+    <input type="number" id="number" class="form-control" required>
     <label id="form-label"><b>Select Product:</b></label>
-    <select id="select" name="Product name" required>
+    <select id="select" name="Product name" class="form-select" required>
         <option name="nikon" id="car1">Nikon Camera</option>
         <option name="canon" id="car2">Canon Camera</option>
         <option name="sony" id="car3">Sony Camera</option>
-    </select>
-    <input type="submit" id="button" value="Add Product" >
+    </select><br>
 
-    
-    
-</form>
-<ul id="items"></ul>
-<p id="itemPrice" ></p>
+    <input type="submit" class="form-submit" id="button" value="Add Product" style="background-color: chocolate;" >
+</form><br>
+<ul id="items" class="card-body"></ul>
+<p id="itemPrice"class="card-body"style="text-align:center;font-weight:bold" ></p>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.3/axios.min.js"></script>
