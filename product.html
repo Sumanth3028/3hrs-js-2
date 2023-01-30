@@ -10,11 +10,11 @@
 </head>
 <body>
  
-<div class="container" class="card-body" style="background-color: azure;">
+<div class="container" class="card card-body" style="background-color: azure;">
     <div>
-        <header class="form-header" style="background-color: rgb(212, 0, 255); text-align: center;margin: auto;"><h1>Seller Page</h1></header>
+        <header class="form-header" style="background-color:grey; text-align: center;margin: auto;color: antiquewhite;"><h1>Seller Page</h1></header>
     </div>
-<form id="my-form" class="card-body">
+<form id="my-form" class="card card-body">
     <label id="form-label"><b>Selling Price:</b></label>
     <input type="number" id="number" class="form-control" required>
     <label id="form-label"><b>Select Product:</b></label>
@@ -25,8 +25,13 @@
     </select><br>
 
     <input type="submit" class="form-submit" id="button" value="Add Product" style="background-color: chocolate;" >
+<footer class="form-footer" style="background-color: rgb(120, 81, 22);">  </footer>
 </form><br>
-<ul id="items" class="card-body"></ul>
+<div class="card card-body">
+    <header style="background-color:crimson;text-align:center;color:beige"><h3>Item list</h3></header>
+    <ul id="items" class="card-body"></ul></div>
+
+<header class="card card-body " style="background-color:darkgray;text-align: center;"><h3>Price Calculator</h3></header>
 <p id="itemPrice"class="card-body"style="text-align:center;font-weight:bold" ></p>
 </div>
 
